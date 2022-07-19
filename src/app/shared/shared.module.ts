@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PokerHeaderComponent } from './poker-header/poker-header.component';
-
-
-
+import { PokerSearchComponent } from './poker-search/poker-search.component';
+import { PokerListComponent } from './poker-list/poker-list.component';
 @NgModule({
   declarations: [
-    PokerHeaderComponent
+    PokerHeaderComponent,
+    PokerSearchComponent,
+    PokerListComponent
   ],
   exports: [
-    PokerHeaderComponent
+    PokerHeaderComponent,
+    PokerSearchComponent,
+    PokerListComponent
   ],
   imports: [
     CommonModule
