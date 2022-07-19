@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@use './app/config-scss/variables.scss';
+@use './app/config-scss/reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html {
+  background: var(--primary);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
